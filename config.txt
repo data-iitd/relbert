@@ -1,0 +1,3 @@
+db_name = imdb
+tables_name = cdirectors, cactors, cdirectors_genres, cmovies_directors, croles, cmovies, cmovies_genres
+columns_header = cdirectors:id, cdirectors:first_name, cdirectors:last_name, cdirectors_genres:id, cdirectors_genres:genre, cdirectors_genres:prob, cmovies_directors:id, cmovies_directors:movie_id, cmovies:movie_id, cmovies:name, cmovies:year, cmovies:rank, cmovies_genres:movie_id, cmovies_genres:movies_genre, croles:actor_id, croles:movie_id, croles:role, cactors:actor_id, cactors:first_name, cactors:last_name, cactors:gender
